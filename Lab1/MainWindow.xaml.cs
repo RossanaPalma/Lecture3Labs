@@ -40,7 +40,6 @@ namespace Lab1
             piglatinLastName = piglatinLastName.Substring(0, 1).ToUpper() + piglatinLastName.Substring(1, piglatinLastName.Length - 1);
             MessageBox.Show("Your name in piglatin is: "  + piglatinFirstName + " " + piglatinLastName);
 
-
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
